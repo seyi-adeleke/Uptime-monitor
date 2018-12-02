@@ -1,0 +1,18 @@
+{
+  "name": "uptime-monitor",
+  "version": "1.0.0",
+  "description": "Simple node logging integrated with loggly",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Seyi Adeleke",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "node-cron": "^2.0.3",
+    "ping": "^0.2.2",
+    "winston-loggly-bulk": "^2.0.3"
+  }
+}
